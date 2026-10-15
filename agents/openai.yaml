@@ -1,0 +1,4 @@
+interface:
+  display_name: "实验手册编写"
+  short_description: "编写按键式的自包含实验任务包：每步一条命令、一个输出、一张去向表，并发、重试、恢复由脚本机械完成"
+  default_prompt: "使用 $write-experiment-manual，将已确定的实验设计整理成可整体转发、执行侧按步骤表机械执行到结束的手册目录，含执行约定块、units.jsonl、run_units.py 与启动提示词。"
